@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-@wc*ik366mmlnk9vn94yh5v7+phyq+zxg0de_5_w+09h(+q9^h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+     "gym-backend-2-qw1m.onrender.com",
+    "localhost",
+    "127.0.0.1",
+    ]
 
 
 # Application definition
@@ -71,7 +75,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
+    "https://gym-frontend-umber.vercel.app/",
 ]
 
 ROOT_URLCONF = 'gym_backend.urls'
